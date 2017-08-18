@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DD2354351F46E19000AED417 /* NSObjectThree.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2354341F46E19000AED417 /* NSObjectThree.m */; };
+		DD2354321F46E12D00AED417 /* NSObjectFeatureOne.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2354311F46E12D00AED417 /* NSObjectFeatureOne.m */; };
 		DDDFB7091F46CE3C00539F3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFB7081F46CE3C00539F3C /* main.m */; };
 		DDDFB70C1F46CE3C00539F3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFB70B1F46CE3C00539F3C /* AppDelegate.m */; };
 		DDDFB70F1F46CE3C00539F3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFB70E1F46CE3C00539F3C /* ViewController.m */; };
@@ -19,6 +20,8 @@
 /* Begin PBXFileReference section */
 		DD2354331F46E19000AED417 /* NSObjectThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectThree.h; sourceTree = "<group>"; };
 		DD2354341F46E19000AED417 /* NSObjectThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectThree.m; sourceTree = "<group>"; };
+		DD2354301F46E12D00AED417 /* NSObjectFeatureOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectFeatureOne.h; sourceTree = "<group>"; };
+		DD2354311F46E12D00AED417 /* NSObjectFeatureOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectFeatureOne.m; sourceTree = "<group>"; };
 		DDDFB7041F46CE3C00539F3C /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDDFB7081F46CE3C00539F3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DDDFB70A1F46CE3C00539F3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				DDDFB70E1F46CE3C00539F3C /* ViewController.m */,
 				DD2354331F46E19000AED417 /* NSObjectThree.h */,
 				DD2354341F46E19000AED417 /* NSObjectThree.m */,
+				DD2354301F46E12D00AED417 /* NSObjectFeatureOne.h */,
+				DD2354311F46E12D00AED417 /* NSObjectFeatureOne.m */,
 				DDDFB7101F46CE3C00539F3C /* Main.storyboard */,
 				DDDFB7131F46CE3C00539F3C /* Assets.xcassets */,
 				DDDFB7151F46CE3C00539F3C /* LaunchScreen.storyboard */,
@@ -157,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDDFB70F1F46CE3C00539F3C /* ViewController.m in Sources */,
+				DD2354321F46E12D00AED417 /* NSObjectFeatureOne.m in Sources */,
 				DDDFB70C1F46CE3C00539F3C /* AppDelegate.m in Sources */,
 				DD2354351F46E19000AED417 /* NSObjectThree.m in Sources */,
 				DDDFB7091F46CE3C00539F3C /* main.m in Sources */,
