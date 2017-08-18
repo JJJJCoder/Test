@@ -21,4 +21,19 @@
     self.view.backgroundColor = [UIColor blueColor];
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    NSLog(@"hello world");
+}
+
+- (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    NSLog(@"touch moved feature 3");
+}
+
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    NSLog(@"touch ended feature 3");
+}
+
 @end
