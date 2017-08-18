@@ -14,16 +14,11 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor]
+    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor blueColor];
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end
