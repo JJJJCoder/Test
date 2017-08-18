@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (nonatomic, strong) UIButton *btn;
+
 @end
 
 @implementation ViewController
@@ -18,7 +20,19 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
-    self.view.backgroundColor = [UIColor blueColor];
+    self.view.backgroundColor = [UIColor blueColor];    [self.view addSubview:self.btn];
+    [self.btn setTitle:@"hello" forState:UIControlStateNormal];
+    self.btn.frame = CGRectMake(100, 100, 100, 100);
+}
+
+
+
+- (UIButton *)btn
+{
+    if(!(_btn = [UIButton buttonWithType:UIButtonTypeCustom]))
+        return nil;
+    
+    return _btn;
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
