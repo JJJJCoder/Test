@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gU9-2b-dgm">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Test View Controller-->
+        <scene sceneID="sDw-ZD-hES">
+            <objects>
+                <viewController id="gU9-2b-dgm" customClass="TestViewController" customModule="FVActionSheetController" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s6w-rS-A75"/>
+                        <viewControllerLayoutGuide type="bottom" id="eKW-mb-mQn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="o1j-hw-0uI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="en_bg1" translatesAutoresizingMaskIntoConstraints="NO" id="Owi-FR-nBP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="lqt-aj-3gI" appends="YES" id="jOq-ti-1YI"/>
+                                </connections>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T08-fw-6df">
+                                <rect key="frame" x="16" y="28" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Ued-RK-JlD"/>
+                                    <constraint firstAttribute="width" constant="46" id="uAc-rk-sjo"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="backButtonClick:" destination="gU9-2b-dgm" eventType="touchUpInside" id="9fm-XV-5Q3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="eKW-mb-mQn" firstAttribute="top" secondItem="Owi-FR-nBP" secondAttribute="bottom" id="DWN-S9-QqG"/>
+                            <constraint firstItem="Owi-FR-nBP" firstAttribute="leading" secondItem="o1j-hw-0uI" secondAttribute="leading" id="UJg-GS-k8G"/>
+                            <constraint firstItem="Owi-FR-nBP" firstAttribute="top" secondItem="o1j-hw-0uI" secondAttribute="top" id="XYQ-GJ-0vR"/>
+                            <constraint firstAttribute="trailing" secondItem="Owi-FR-nBP" secondAttribute="trailing" id="f2u-XD-XPF"/>
+                            <constraint firstItem="T08-fw-6df" firstAttribute="leading" secondItem="o1j-hw-0uI" secondAttribute="leading" constant="16" id="nvz-OQ-lqF"/>
+                            <constraint firstItem="T08-fw-6df" firstAttribute="top" secondItem="s6w-rS-A75" secondAttribute="bottom" constant="8" id="yVA-bw-Gi0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonClicked" destination="T08-fw-6df" id="55u-GE-LRR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TmM-sa-Cit" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="lqt-aj-3gI">
+                    <connections>
+                        <action selector="imageviewClicked:" destination="gU9-2b-dgm" id="L8W-4Z-wRJ"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-234.40000000000001" y="146.17691154422789"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="en_bg1" width="375" height="667"/>
+    </resources>
+</document>
