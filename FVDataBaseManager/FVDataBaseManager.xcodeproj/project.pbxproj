@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D1BB7F17875EDB48C074C8B /* libPods-FVDataBaseManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BEC342764283DC69ED7236 /* libPods-FVDataBaseManager.a */; };
+		DD5D35281F511AEE001F11F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5D35271F511AEE001F11F0 /* main.m */; };
+		DD5D352B1F511AEE001F11F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5D352A1F511AEE001F11F0 /* AppDelegate.m */; };
+		DD5D352E1F511AEE001F11F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5D352D1F511AEE001F11F0 /* ViewController.m */; };
+		DD5D35311F511AEE001F11F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D352F1F511AEE001F11F0 /* Main.storyboard */; };
+		DD5D35331F511AEE001F11F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5D35321F511AEE001F11F0 /* Assets.xcassets */; };
+		DD5D35361F511AEE001F11F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D35341F511AEE001F11F0 /* LaunchScreen.storyboard */; };
+		DD5D35841F511DAB001F11F0 /* FVDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5D35831F511DAB001F11F0 /* FVDatabase.m */; };
+		DD5D35871F51237D001F11F0 /* FVDatabaseFile.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5D35861F51237D001F11F0 /* FVDatabaseFile.m */; };
+		DD5D35921F513CAC001F11F0 /* NSDate+use.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5D358F1F513CAC001F11F0 /* NSDate+use.m */; };
+		DD5D35931F513CAC001F11F0 /* NSString+DBUse.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5D35911F513CAC001F11F0 /* NSString+DBUse.m */; };
+		DD5D35961F513D3C001F11F0 /* HXInputStudentsNameStore.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5D35951F513D3C001F11F0 /* HXInputStudentsNameStore.m */; };
+		DD5D35991F5148F5001F11F0 /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5D35981F5148F5001F11F0 /* StudentModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C25ADB8B05264788E00F256 /* Pods-FVDataBaseManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FVDataBaseManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-FVDataBaseManager/Pods-FVDataBaseManager.release.xcconfig"; sourceTree = "<group>"; };
+		7ECD8C859438042D22EC642A /* Pods-FVDataBaseManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FVDataBaseManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FVDataBaseManager/Pods-FVDataBaseManager.debug.xcconfig"; sourceTree = "<group>"; };
+		D1BEC342764283DC69ED7236 /* libPods-FVDataBaseManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FVDataBaseManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5D35231F511AEE001F11F0 /* FVDataBaseManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FVDataBaseManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5D35271F511AEE001F11F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD5D35291F511AEE001F11F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD5D352A1F511AEE001F11F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD5D352C1F511AEE001F11F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD5D352D1F511AEE001F11F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD5D35301F511AEE001F11F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD5D35321F511AEE001F11F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD5D35351F511AEE001F11F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD5D35371F511AEE001F11F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5D35811F511C59001F11F0 /* FVDatabaseProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FVDatabaseProtocol.h; sourceTree = "<group>"; };
+		DD5D35821F511DAB001F11F0 /* FVDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVDatabase.h; sourceTree = "<group>"; };
+		DD5D35831F511DAB001F11F0 /* FVDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVDatabase.m; sourceTree = "<group>"; };
+		DD5D35851F51237D001F11F0 /* FVDatabaseFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVDatabaseFile.h; sourceTree = "<group>"; };
+		DD5D35861F51237D001F11F0 /* FVDatabaseFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVDatabaseFile.m; sourceTree = "<group>"; };
+		DD5D358E1F513CAC001F11F0 /* NSDate+use.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+use.h"; sourceTree = "<group>"; };
+		DD5D358F1F513CAC001F11F0 /* NSDate+use.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+use.m"; sourceTree = "<group>"; };
+		DD5D35901F513CAC001F11F0 /* NSString+DBUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DBUse.h"; sourceTree = "<group>"; };
+		DD5D35911F513CAC001F11F0 /* NSString+DBUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DBUse.m"; sourceTree = "<group>"; };
+		DD5D35941F513D3C001F11F0 /* HXInputStudentsNameStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXInputStudentsNameStore.h; sourceTree = "<group>"; };
+		DD5D35951F513D3C001F11F0 /* HXInputStudentsNameStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXInputStudentsNameStore.m; sourceTree = "<group>"; };
+		DD5D35971F5148F5001F11F0 /* StudentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentModel.h; sourceTree = "<group>"; };
+		DD5D35981F5148F5001F11F0 /* StudentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD5D35201F511AEE001F11F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1BB7F17875EDB48C074C8B /* libPods-FVDataBaseManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E7992AEB1E5DE9CB1C7D5FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ECD8C859438042D22EC642A /* Pods-FVDataBaseManager.debug.xcconfig */,
+				1C25ADB8B05264788E00F256 /* Pods-FVDataBaseManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		750AABF1898502781DFEC28C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1BEC342764283DC69ED7236 /* libPods-FVDataBaseManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD5D351A1F511AEE001F11F0 = {
+			isa = PBXGroup;
+			children = (
+				DD5D35251F511AEE001F11F0 /* FVDataBaseManager */,
+				DD5D35241F511AEE001F11F0 /* Products */,
+				2E7992AEB1E5DE9CB1C7D5FE /* Pods */,
+				750AABF1898502781DFEC28C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD5D35241F511AEE001F11F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD5D35231F511AEE001F11F0 /* FVDataBaseManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD5D35251F511AEE001F11F0 /* FVDataBaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				DD5D353D1F511B16001F11F0 /* sqlite */,
+				DD5D35291F511AEE001F11F0 /* AppDelegate.h */,
+				DD5D352A1F511AEE001F11F0 /* AppDelegate.m */,
+				DD5D35941F513D3C001F11F0 /* HXInputStudentsNameStore.h */,
+				DD5D35951F513D3C001F11F0 /* HXInputStudentsNameStore.m */,
+				DD5D352C1F511AEE001F11F0 /* ViewController.h */,
+				DD5D352D1F511AEE001F11F0 /* ViewController.m */,
+				DD5D35971F5148F5001F11F0 /* StudentModel.h */,
+				DD5D35981F5148F5001F11F0 /* StudentModel.m */,
+				DD5D352F1F511AEE001F11F0 /* Main.storyboard */,
+				DD5D35321F511AEE001F11F0 /* Assets.xcassets */,
+				DD5D35341F511AEE001F11F0 /* LaunchScreen.storyboard */,
+				DD5D35371F511AEE001F11F0 /* Info.plist */,
+				DD5D35261F511AEE001F11F0 /* Supporting Files */,
+			);
+			path = FVDataBaseManager;
+			sourceTree = "<group>";
+		};
+		DD5D35261F511AEE001F11F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD5D35271F511AEE001F11F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD5D353D1F511B16001F11F0 /* sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				DD5D358E1F513CAC001F11F0 /* NSDate+use.h */,
+				DD5D358F1F513CAC001F11F0 /* NSDate+use.m */,
+				DD5D35901F513CAC001F11F0 /* NSString+DBUse.h */,
+				DD5D35911F513CAC001F11F0 /* NSString+DBUse.m */,
+				DD5D35811F511C59001F11F0 /* FVDatabaseProtocol.h */,
+				DD5D35821F511DAB001F11F0 /* FVDatabase.h */,
+				DD5D35831F511DAB001F11F0 /* FVDatabase.m */,
+				DD5D35851F51237D001F11F0 /* FVDatabaseFile.h */,
+				DD5D35861F51237D001F11F0 /* FVDatabaseFile.m */,
+			);
+			path = sqlite;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD5D35221F511AEE001F11F0 /* FVDataBaseManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5D353A1F511AEE001F11F0 /* Build configuration list for PBXNativeTarget "FVDataBaseManager" */;
+			buildPhases = (
+				9DDF2FEC446A625F3EE2E0DD /* [CP] Check Pods Manifest.lock */,
+				DD5D351F1F511AEE001F11F0 /* Sources */,
+				DD5D35201F511AEE001F11F0 /* Frameworks */,
+				DD5D35211F511AEE001F11F0 /* Resources */,
+				15FB62A8984E570B23F793EA /* [CP] Embed Pods Frameworks */,
+				6CE17B0001104B7D6AF6C3BE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FVDataBaseManager;
+			productName = FVDataBaseManager;
+			productReference = DD5D35231F511AEE001F11F0 /* FVDataBaseManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD5D351B1F511AEE001F11F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Huixiang;
+				TargetAttributes = {
+					DD5D35221F511AEE001F11F0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XPMXP6URKM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DD5D351E1F511AEE001F11F0 /* Build configuration list for PBXProject "FVDataBaseManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD5D351A1F511AEE001F11F0;
+			productRefGroup = DD5D35241F511AEE001F11F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD5D35221F511AEE001F11F0 /* FVDataBaseManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD5D35211F511AEE001F11F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5D35361F511AEE001F11F0 /* LaunchScreen.storyboard in Resources */,
+				DD5D35331F511AEE001F11F0 /* Assets.xcassets in Resources */,
+				DD5D35311F511AEE001F11F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15FB62A8984E570B23F793EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FVDataBaseManager/Pods-FVDataBaseManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CE17B0001104B7D6AF6C3BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FVDataBaseManager/Pods-FVDataBaseManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DDF2FEC446A625F3EE2E0DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD5D351F1F511AEE001F11F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5D35921F513CAC001F11F0 /* NSDate+use.m in Sources */,
+				DD5D35871F51237D001F11F0 /* FVDatabaseFile.m in Sources */,
+				DD5D35841F511DAB001F11F0 /* FVDatabase.m in Sources */,
+				DD5D352E1F511AEE001F11F0 /* ViewController.m in Sources */,
+				DD5D35931F513CAC001F11F0 /* NSString+DBUse.m in Sources */,
+				DD5D35961F513D3C001F11F0 /* HXInputStudentsNameStore.m in Sources */,
+				DD5D352B1F511AEE001F11F0 /* AppDelegate.m in Sources */,
+				DD5D35991F5148F5001F11F0 /* StudentModel.m in Sources */,
+				DD5D35281F511AEE001F11F0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD5D352F1F511AEE001F11F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5D35301F511AEE001F11F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD5D35341F511AEE001F11F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5D35351F511AEE001F11F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD5D35381F511AEE001F11F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD5D35391F511AEE001F11F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD5D353B1F511AEE001F11F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ECD8C859438042D22EC642A /* Pods-FVDataBaseManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XPMXP6URKM;
+				INFOPLIST_FILE = FVDataBaseManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iforvert.ios.FVDataBaseManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD5D353C1F511AEE001F11F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C25ADB8B05264788E00F256 /* Pods-FVDataBaseManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XPMXP6URKM;
+				INFOPLIST_FILE = FVDataBaseManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iforvert.ios.FVDataBaseManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD5D351E1F511AEE001F11F0 /* Build configuration list for PBXProject "FVDataBaseManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5D35381F511AEE001F11F0 /* Debug */,
+				DD5D35391F511AEE001F11F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5D353A1F511AEE001F11F0 /* Build configuration list for PBXNativeTarget "FVDataBaseManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5D353B1F511AEE001F11F0 /* Debug */,
+				DD5D353C1F511AEE001F11F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD5D351B1F511AEE001F11F0 /* Project object */;
+}
