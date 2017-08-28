@@ -20,6 +20,7 @@
 		DD5D35931F513CAC001F11F0 /* NSString+DBUse.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5D35911F513CAC001F11F0 /* NSString+DBUse.m */; };
 		DD5D35961F513D3C001F11F0 /* HXInputStudentsNameStore.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5D35951F513D3C001F11F0 /* HXInputStudentsNameStore.m */; };
 		DD5D35991F5148F5001F11F0 /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5D35981F5148F5001F11F0 /* StudentModel.m */; };
+		DD6C040B1F542F8000524F09 /* FVFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6C040A1F542F8000524F09 /* FVFiles.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,8 @@
 		DD5D35951F513D3C001F11F0 /* HXInputStudentsNameStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXInputStudentsNameStore.m; sourceTree = "<group>"; };
 		DD5D35971F5148F5001F11F0 /* StudentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentModel.h; sourceTree = "<group>"; };
 		DD5D35981F5148F5001F11F0 /* StudentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentModel.m; sourceTree = "<group>"; };
+		DD6C04091F542F8000524F09 /* FVFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVFiles.h; sourceTree = "<group>"; };
+		DD6C040A1F542F8000524F09 /* FVFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVFiles.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				DD5D35341F511AEE001F11F0 /* LaunchScreen.storyboard */,
 				DD5D35371F511AEE001F11F0 /* Info.plist */,
 				DD5D35261F511AEE001F11F0 /* Supporting Files */,
+				DD6C04091F542F8000524F09 /* FVFiles.h */,
+				DD6C040A1F542F8000524F09 /* FVFiles.m */,
 			);
 			path = FVDataBaseManager;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				DD5D35931F513CAC001F11F0 /* NSString+DBUse.m in Sources */,
 				DD5D35961F513D3C001F11F0 /* HXInputStudentsNameStore.m in Sources */,
 				DD5D352B1F511AEE001F11F0 /* AppDelegate.m in Sources */,
+				DD6C040B1F542F8000524F09 /* FVFiles.m in Sources */,
 				DD5D35991F5148F5001F11F0 /* StudentModel.m in Sources */,
 				DD5D35281F511AEE001F11F0 /* main.m in Sources */,
 			);
