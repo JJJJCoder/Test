@@ -63,12 +63,12 @@
 
 - (NSString *)databaseName
 {
-    return @"smart_input.sql";
+    return @"smartInput.sqlite";
 }
 
 - (NSString *)tableName
 {
-    return @"input_students";
+    return @"t_smartInput";
 }
 
 - (NSString *)columnDescription

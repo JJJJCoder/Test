@@ -21,7 +21,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
@@ -31,9 +30,8 @@
     HXInputStudentsNameStore *store = [[HXInputStudentsNameStore alloc] init];
     
     [store writeDateWithStudentList:self.arr];
-    
-}
 
+}
 
 - (NSMutableArray *)arr
 {
@@ -50,4 +48,5 @@
     }
     return _arr;
 }
+
 @end
