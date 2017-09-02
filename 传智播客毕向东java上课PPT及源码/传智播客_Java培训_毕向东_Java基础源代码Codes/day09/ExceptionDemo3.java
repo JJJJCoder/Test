@@ -66,10 +66,7 @@ class FuShuException extends Exception //getMessage();
 	{
 		return value;
 	}
-
 }
-
-
 
 class Demo
 {
@@ -99,9 +96,6 @@ class  ExceptionDemo3
 			//System.out.println("除数出现负数了");
 			System.out.println("错误的负数是："+e.getValue());
 		}
-		
-		
-
 		System.out.println("over");
 
 	}

@@ -1,5 +1,5 @@
 /*
-Object:是所有对象的直接后者间接父类，传说中的上帝。
+Object:是所有对象的直接或者间接父类，传说中的上帝。
 该类中定义的肯定是所有对象都具备的功能。
 
 
@@ -20,7 +20,6 @@ class Demo //extends Object
 	
 	public boolean equals(Object obj)//Object obj = new Demo();
 	{
-
 		if(!(obj instanceof Demo))
 			return false;
 		Demo d = (Demo)obj;
@@ -38,9 +37,8 @@ class Demo //extends Object
 	{
 		return "demo:"+num;
 	}
-
-
 }
+
 class Person 
 {
 }
