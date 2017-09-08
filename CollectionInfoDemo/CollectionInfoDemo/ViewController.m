@@ -29,37 +29,23 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardAppear:) name:UIKeyboardWillShowNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillDisAppear:) name:UIKeyboardWillHideNotification object:nil];
-    
 }
 
 - (void)keyboardAppear:(NSNotification *)notification
 {
     CGSize keyboardSize = [[[notification userInfo] objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue].size;
-    
-    //Given size may not account for screen rotation
     int height = MIN(keyboardSize.height,keyboardSize.width);
-    int width = MAX(keyboardSize.height,keyboardSize.width);
-    
     [self.scrollView setContentInset:UIEdgeInsetsMake(0, 0, height + 30, 0)];
-    NSLog(@"%@  ----- %@",@(height),@(width));}
+}
 
 - (void)keyboardWillDisAppear:(NSNotification *)notification
 {
-    CGSize keyboardSize = [[[notification userInfo] objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue].size;
-    
-    //Given size may not account for screen rotation
-    int height = MIN(keyboardSize.height,keyboardSize.width);
-    int width = MAX(keyboardSize.height,keyboardSize.width);
-    
-    
     [self.scrollView setContentInset:UIEdgeInsetsMake(0, 0, 0, 0)];
-    NSLog(@"%@  ----- %@",@(height),@(width));
 }
 
 - (void)viewWillLayoutSubviews
 {
     [super viewWillLayoutSubviews];
-    
 }
 
 #pragma mark - <UIScrollViewDelegate>
@@ -71,7 +57,8 @@
 
 - (UIScrollView *)scrollView
 {
-    if (!_scrollView) {
+    if (!_scrollView)
+    {
         _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 64.f, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 64 -44.f)];
         _scrollView.delegate = self;
         _scrollView.alwaysBounceVertical = YES;
